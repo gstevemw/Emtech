@@ -1720,7 +1720,7 @@ while not salir:
         elif opcion=='2':
             print("Ha seleccionado: Productos con peores reseñas")
             #Si son los peor reseñados, se acomodan de menor a mayor
-            promedio_scores.sort()
+            promedio_score.sort()
         elif opcion=='3':
             print("Ha seleccionado: Sin acomodar")
         else:
