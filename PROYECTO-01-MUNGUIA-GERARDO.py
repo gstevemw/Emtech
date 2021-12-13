@@ -1454,8 +1454,7 @@ if intento==3:
     print("Número de intentos agotado")
     exit()
 
-#Una vez iniciada sesión, el programa despliega un resumen por mes de cada categoría de producto:
-print("Mostrando resultados por mes de ventas de producto: ")
+#Una vez iniciada sesión, el programa despliega un resumen de cada categoría de producto:
 
 #Primero encuentro las categorías existentes
 categorias = []
@@ -1505,8 +1504,9 @@ for categoria in categorias:
         else:
             break
 
+#Y muestra información por mes por cada categoría
+print("\nMostrando resultados por mes de ventas de producto: ")
 
-#Y por mes por cada categoría
 for mes in meses:
     num_mes=int(mes)-1
     print(f"Ventas del mes de {nombre_meses[num_mes]}")
